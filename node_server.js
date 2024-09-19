@@ -1,4 +1,4 @@
-const { Socket } = require('dgram');
+
 const net=require('net');
 
 //this is used  to create a socket object>>>

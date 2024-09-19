@@ -2,8 +2,8 @@ const net=require('net');
 
 
 const client=net.createConnection({port:8080},()=>{
-    console.log("client connect1");
-    client.write("hello from node client"); 
+    console.log("client connect2");
+    client.write("hello from node client2"); 
 });
 
 client.on('data',(data)=>{
